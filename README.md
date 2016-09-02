@@ -40,12 +40,12 @@ By default, this example includes the following handlers:
 |---------|-------|
 | [`lita-eightball`](https://github.com/webdestroya/lita-eightball) | |
 | [`lita-inspirebot`](https://github.com/grokify/lita-inspirebot) | |
-| [`lita-zendesk`](https://github.com/grokify/lita-zendesk) | * some environment variables are necessary to make the Zendesk handler work.
-* These being with `LITA_ZENDESK_` and have all been set to optional in the Heroku `app.json` for the purposes of this demo. |
+| [`lita-zendesk`](https://github.com/grokify/lita-zendesk) | Some environment variables are necessary to make the Zendesk handler work. These begin with `LITA_ZENDESK_` and have all been set to optional in the Heroku `app.json` for the purposes of this demo. |
 
 ### Sample interaction
 
 | SMS request | SMS Response |
+|-------------|--------------|
 | `quote jobs` | Get a random quote from Steve Jobs |
 | `@rcbot 8ball` | Get a random 8ball response |
 | `@rcbot zd tickets` | Get a ticket count for Zendesk |

@@ -94,6 +94,6 @@
             "description": "Set this to your Zendesk password if using password auth",
             "value": "",
             "required": true
-        },
+        }
     }
 }

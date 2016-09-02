@@ -52,7 +52,7 @@
         },
         "LITA_ADAPTERS_RINGCENTRAL_USERNAME": {
             "description": "Set this to your RingCentral username, e.g. main company or extension phone number",
-            "value": "ringcentralApiAlerts",
+            "value": "",
             "required": true
         },
         "LITA_ADAPTERS_RINGCENTRAL_EXTENSION": {
@@ -72,7 +72,7 @@
         },
         "LITA_HANDLERS_ZENDESK_SUBDOMAIN": {
             "description": "Set this to your Zendesk subdomain",
-            "value": "0",
+            "value": "",
             "required": true
         },
         "LITA_HANDLERS_ZENDESK_authType": {
@@ -88,12 +88,12 @@
         "LITA_HANDLERS_ZENDESK_TOKEN": {
             "description": "Set this to your Zendesk token if using token auth",
             "value": "",
-            "required": true
+            "required": false
         },
         "LITA_HANDLERS_ZENDESK_PASSWORD": {
             "description": "Set this to your Zendesk password if using password auth",
             "value": "",
-            "required": true
+            "required": false
         }
     }
 }

@@ -17,7 +17,7 @@ The settings are located in the [`app.json`](app.json) file. If you wish to chan
 
 ### Manual Setup
 
-For a manual set up, clone the repo and create the `.env` file to run:
+For a manual set up, install Redis, clone the repo and create the `.env` file to run:
 
 ```bash
 $ git clone https://github.com/grokify/smsbot-ringcentral-lita
@@ -27,6 +27,8 @@ $ vi .env
 $ bundle install
 $ lita
 ```
+
+Information on installing Redis is available on the [Lita User Guide under Manual Installation](https://docs.lita.io/getting-started/installation/#manual-installation).
 
 ## Usage
 

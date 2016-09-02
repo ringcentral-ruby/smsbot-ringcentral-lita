@@ -1,0 +1,99 @@
+{
+    "name": "RingCentral SMSbot",
+    "description": "This repository provides a simple SMSbot example",
+    "repository": "https://github.com/grokify/smsbot-ringcentral-lita",
+    "logo": "https://github.com/grokify/ringcentral-ruby.svg",
+    "keywords": ["RignCentral","SMS","SMSbot","Lita"],
+    "website": "https://github.com/grokify",
+    "addons": [
+        "redistogo:nano"
+    ],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "Hobby"
+        }
+    },
+    "env": {
+        "LITA_ROBOT_NAME": {
+            "description": "Your RingCentral Username/Phone - ex: 12225551919 - Do not use a plus sign or any special characters...only the numbers",
+            "value": "",
+            "required": true
+        },
+        "LITA_ROBOT_LOCALE__TYPESYM": {
+            "description": "Your Lita bot locale",
+            "value": "en",
+            "required": false
+        },
+        "LITA_ROBOT_logLevel__TYPESYM": {
+            "description": "Your Lita log_level",
+            "value": "info",
+            "required": false
+        },
+        "LITA_ROBOT_ADAPTER": {
+            "description": "Your Litabot adapter",
+            "value": "ringcentral",
+            "required": true
+        },
+        "LITA_ADAPTERS_RINGCENTRAL_SERVER": {
+            "description": "Your RingCentral API host",
+            "value": "https://platform.ringcentral.com",
+            "required": true
+        },
+        "LITA_ADAPTERS_RINGCENTRAL_appKey": {
+            "description": "Set this to your RingCentral app key",
+            "value": "",
+            "required": true
+        },
+        "LITA_ADAPTERS_RINGCENTRAL_appSecret": {
+            "description": "Set this to your RingCentral app secret",
+            "value": "",
+            "required": true
+        },
+        "LITA_ADAPTERS_RINGCENTRAL_USERNAME": {
+            "description": "Set this to your RingCentral username, e.g. main company or extension phone number",
+            "value": "ringcentralApiAlerts",
+            "required": true
+        },
+        "LITA_ADAPTERS_RINGCENTRAL_EXTENSION": {
+            "description": "Set this to your RingCentral extension",
+            "value": "",
+            "required": false
+        },
+        "LITA_ADAPTERS_RINGCENTRAL_PASSWORD": {
+            "description": "Set this to your RingCentral password",
+            "value": "",
+            "required": true
+        },
+        "LITA_ADAPTERS_RINGCENTRAL_smsNumber": {
+            "description": "This is the SMS-enabled RingCentral number you wish to use for receiving and sending SMSbot chat",
+            "value": "",
+            "required": true
+        },
+        "LITA_HANDLERS_ZENDESK_SUBDOMAIN": {
+            "description": "Set this to your Zendesk subdomain",
+            "value": "0",
+            "required": true
+        },
+        "LITA_HANDLERS_ZENDESK_authType": {
+            "description": "Set this to your auth type, password or token",
+            "value": "password",
+            "required": true
+        },
+        "LITA_HANDLERS_ZENDESK_USER": {
+            "description": "Set this to your Zendesk user email",
+            "value": "",
+            "required": true
+        },
+        "LITA_HANDLERS_ZENDESK_TOKEN": {
+            "description": "Set this to your Zendesk token if using token auth",
+            "value": "",
+            "required": true
+        },
+        "LITA_HANDLERS_ZENDESK_PASSWORD": {
+            "description": "Set this to your Zendesk password if using password auth",
+            "value": "",
+            "required": true
+        },
+    }
+}

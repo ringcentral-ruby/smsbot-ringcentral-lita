@@ -28,6 +28,21 @@ $ bundle install
 $ lita
 ```
 
+## Usage
+
+To change the handlers that are loaded, edit the `Gemfile` as normal.
+
+Lita configuration is loaded in `lita_config.rb` `and [`lita_dotenv`](). `lita_dotenv` enables loading of many configuration types via the environment (`.env` file or system / Heroku env).
+
+By default, this example includes the following handlers:
+
+| handler | notes |
+|---------|-------|
+| [`lita-eightball`](https://github.com/webdestroya/lita-eightball) | |
+| [`lita-inspirebot`](https://github.com/grokify/lita-inspirebot) | |
+| [`lita-zendesk`](https://github.com/grokify/lita-zendesk) | * some environment variables are necessary to make the Zendesk handler work.
+* These being with `LITA_ZENDESK_` and have all been set to optional in the Heroku `app.json` for the purposes of this demo. |
+
 ## Links
 
 RingCentral Developer Program

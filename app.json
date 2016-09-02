@@ -2,7 +2,7 @@
     "name": "RingCentral SMSbot",
     "description": "This repository provides a simple SMSbot example",
     "repository": "https://github.com/grokify/smsbot-ringcentral-lita",
-    "logo": "https://github.com/grokify/ringcentral-ruby.svg",
+    "logo": "https://raw.githubusercontent.com/grokify/smsbot-ringcentral-lita/master/ringcentral-ruby.png",
     "keywords": ["RignCentral","SMS","SMSbot","Lita"],
     "website": "https://github.com/grokify",
     "addons": [

@@ -1,7 +1,7 @@
 SMSbot using RingCentral and Lita
 =================================
 
-This project contains an example SMSbot using [RingCentral](https://ringcentral.com)'s SMS APIs](https://developers.ringcentral.com).
+This project contains an example SMSbot using [RingCentral](https://ringcentral.com)'s [SMS APIs](https://developers.ringcentral.com).
 
 ## Installation
 

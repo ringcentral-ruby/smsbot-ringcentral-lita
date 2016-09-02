@@ -7,11 +7,13 @@ This project contains an example SMSbot using [RingCentral](https://ringcentral.
 
 ### Heroku Setup
 
-If you already have your RingCentral API Keys and SMS number created and available, you can use Heroku One-Button Deployment.
+If you already have your RingCentral API Keys and SMS number created and available, you can use [Heroku One-Button Deployment](https://devcenter.heroku.com/articles/heroku-button).
 
 **REMEMBER, you must have all the prerequisites to configure the app properly**
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+The settings are located in the [`app.json`](app.json) file. If you wish to change any settings such as the Dyno type or [Redis To Go](https://elements.heroku.com/addons/redistogo) plan, please fork the repo and deploy from your fork.
 
 ### Manual Setup
 

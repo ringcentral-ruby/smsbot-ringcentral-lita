@@ -15,9 +15,14 @@
         }
     },
     "env": {
+        "SMSBOT_HEROKU": {
+            "description": "Env variable to enable Heroku settings",
+            "value": "true",
+            "required": true
+        },
         "LITA_ROBOT_NAME": {
-            "description": "Your RingCentral Username/Phone - ex: 12225551919 - Do not use a plus sign or any special characters...only the numbers",
-            "value": "",
+            "description": "Your RingCentral SMSbot name",
+            "value": "RCbot",
             "required": true
         },
         "LITA_ROBOT_LOCALE__TYPESYM": {

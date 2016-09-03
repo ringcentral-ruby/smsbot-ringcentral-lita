@@ -6,7 +6,8 @@
     "keywords": ["RignCentral","SMS","SMSbot","Lita"],
     "website": "https://github.com/grokify",
     "addons": [
-        "redistogo:micro"
+        "redistogo:micro",
+        "papertrail:choklad"
     ],
     "formation": {
         "web": {

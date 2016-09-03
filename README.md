@@ -3,6 +3,15 @@ SMSbot using RingCentral and Lita
 
 This project contains an example SMSbot using [RingCentral](https://ringcentral.com)'s [SMS APIs](https://developers.ringcentral.com).
 
+## Prerequisites
+
+* Basic awareness of [Lita](https://www.lita.io/)
+* Access to an active RingCentral Account with access to the [Developer Portal](https://developers.ringcentral.com)
+* SMS feature enabled in your RingCentral account and turned on for one or more extensions (this will be the `SMS number created` in the Heroku Setup steps below. Read more about [RingCentral Business SMS](http://success.ringcentral.com/articles/RC_Knowledge_Article/RingCentral-Business-SMS-Frequently-Asked-Questions).
+* RingCentral Platform - Application defined with the `SMS` API Permission included
+* For local development: Ruby version 2.2.2
+* **NOTE** If you have **HIPAA Compliance** enabled on your RingCentral account, you will be unable to use this feature since SMS is disabled in HIPAA Compliant RingCentral Accounts.
+
 ## Installation
 
 ### Heroku Setup
@@ -10,6 +19,8 @@ This project contains an example SMSbot using [RingCentral](https://ringcentral.
 If you already have your RingCentral API Keys and SMS number created and available, you can use [Heroku One-Button Deployment](https://devcenter.heroku.com/articles/heroku-button).
 
 **REMEMBER, you must have all the prerequisites to configure the app properly**
+
+**NOTE:** Zendesk is optional and you can leave the default values in place if you do not have a Zendesk account
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 

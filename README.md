@@ -45,7 +45,7 @@ Information on installing Redis is available on the [Lita User Guide under Manua
 
 To change the handlers that are loaded, edit the `Gemfile` as normal.
 
-Lita configuration is loaded in `lita_config.rb` `and [`lita_dotenv`](). `lita_dotenv` enables loading of many configuration types via the environment (`.env` file or system / Heroku env).
+Lita configuration is loaded in [lita_config.rb](lita_config.rb) and [lita_dotenv](.lita_dotenv) enables loading of many configuration types via the environment variables depending upon if you're using `.env` to load environment variables or if you are using Heroku environment variables.
 
 By default, this example includes the following handlers:
 

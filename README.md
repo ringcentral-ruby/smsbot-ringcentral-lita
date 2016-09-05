@@ -58,19 +58,11 @@ Lita configuration is loaded in [lita_config.rb](lita_config.rb) and [lita_doten
 
 By default, this example includes the following handlers:
 
-| handler | notes |
+| Handler | Sample command | Notes |
 |---------|-------|
-| [`lita-eightball`](https://github.com/webdestroya/lita-eightball) | |
-| [`lita-inspirebot`][repo-lita-inspirebot-link] | |
-| [`lita-zendesk`](https://github.com/grokify/lita-zendesk) | Some environment variables are necessary to make the Zendesk handler work. These begin with `LITA_ZENDESK_` and have all been set to optional in the Heroku `app.json` for the purposes of this demo. |
-
-#### Sample interaction
-
-| SMS request | SMS Response | Notes |
-|-------------|--------------|-------|
-| `quote jobs` | Get a random quote from Steve Jobs | supports RingCentral sandbox accounts |
-| `@rcbot 8ball` | Get a random 8ball response | requires RingCentral production account |
-| `@rcbot zd tickets` | Get a ticket count for Zendesk | requires RingCentral production account |
+| [`lita-inspirebot`][repo-lita-inspirebot-link] | `quote jobs` | supports RingCentral sandbox accounts |
+| [`lita-eightball`](https://github.com/webdestroya/lita-eightball) | `@rcbot 8ball` | requires Ringcentral production account |
+| [`lita-zendesk`](https://github.com/grokify/lita-zendesk) | `@rcbot zd tickets` | requires RingCentral production account |
 
 #### Changing Handlers
 

@@ -47,8 +47,8 @@ Information on installing Redis is available on the [Lita User Guide under Manua
 
 After starting the service text the following to work with [`lita-inspirebot`][repo-lita-inspirebot-link]
 
-SMS > `quote authors`
-SMS > `quote jobs`
+1. `quote authors`
+2. `quote jobs`
 
 ### Handlers Information
 

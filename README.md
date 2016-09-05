@@ -8,7 +8,7 @@ This project contains an example SMSbot using [RingCentral](https://ringcentral.
 * Basic awareness of [Lita](https://www.lita.io/)
 * Access to an active RingCentral Account with access to the [Developer Portal](https://developers.ringcentral.com)
 * SMS feature enabled in your RingCentral account and turned on for one or more extensions (this will be the `SMS number created` in the Heroku Setup steps below. Read more about [RingCentral Business SMS](http://success.ringcentral.com/articles/RC_Knowledge_Article/RingCentral-Business-SMS-Frequently-Asked-Questions).
-* RingCentral Platform - Applications must have the `SMS` API Permission included. **NOTE** Sandbox accounts **only** require handlers with routes that handle the Sandbox SMS prefix such as [`lita-inspirebot`][repo-lita-inspirebot-link].
+* RingCentral Platform - Applications must have the `SMS` API Permission included. **NOTE** RingCentral developer sandbox accounts require handlers with routes that work with the Sandbox SMS prefix such as [`lita-inspirebot`][repo-lita-inspirebot-link].
 * Ruby version 2.2.2 or greater
 * **NOTE** If you have **HIPAA Compliance** enabled on your RingCentral account, you will be unable to use this feature since SMS is disabled in HIPAA Compliant RingCentral Accounts.
 

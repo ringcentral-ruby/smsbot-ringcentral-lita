@@ -43,7 +43,16 @@ Information on installing Redis is available on the [Lita User Guide under Manua
 
 ## Usage
 
-To change the handlers that are loaded, edit the `Gemfile` as normal.
+### Quickstart
+
+After starting the service text the following to work with [`lita-inspirebot`][repo-lita-inspirebot-link]
+
+SMS > `quote authors`
+SMS > `quote jobs`
+
+### Handlers Information
+
+This demo apps loads 3 handlers:
 
 Lita configuration is loaded in [lita_config.rb](lita_config.rb) and [lita_dotenv](.lita_dotenv) enables loading of many configuration types via the environment variables depending upon if you're using `.env` to load environment variables or if you are using Heroku environment variables.
 
@@ -55,13 +64,17 @@ By default, this example includes the following handlers:
 | [`lita-inspirebot`](https://github.com/grokify/lita-inspirebot) | |
 | [`lita-zendesk`](https://github.com/grokify/lita-zendesk) | Some environment variables are necessary to make the Zendesk handler work. These begin with `LITA_ZENDESK_` and have all been set to optional in the Heroku `app.json` for the purposes of this demo. |
 
-### Sample interaction
+#### Sample interaction
 
-| SMS request | SMS Response |
-|-------------|--------------|
-| `quote jobs` | Get a random quote from Steve Jobs |
-| `@rcbot 8ball` | Get a random 8ball response |
-| `@rcbot zd tickets` | Get a ticket count for Zendesk |
+| SMS request | SMS Response | Notes |
+|-------------|--------------|-------|
+| `quote jobs` | Get a random quote from Steve Jobs | supports RingCentral sandbox accounts |
+| `@rcbot 8ball` | Get a random 8ball response | requires RingCentral production account |
+| `@rcbot zd tickets` | Get a ticket count for Zendesk | requires RingCentral production account |
+
+#### Changing Handlers
+
+To change the handlers that are loaded, edit the `Gemfile` as normal per [Lita](https://lita.io).
 
 ## Links
 
@@ -82,3 +95,5 @@ RingCentral Developer Program
 SMSbot using RingCentral and Lita is available under the MIT-style license. See [LICENSE.txt](LICENSE.txt) for details.
 
 SMSbot using RingCentral and Lita &copy; 2016 by John Wang
+
+ [repo-lita-inspirebot-link]: https://github.com/grokify/lita-inspirebot

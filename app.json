@@ -6,13 +6,13 @@
     "keywords": ["RignCentral","SMS","SMSbot","Lita"],
     "website": "https://github.com/grokify",
     "addons": [
-        "redistogo:nano",
+        "redistogo:micro",
         "papertrail:choklad"
     ],
     "formation": {
         "web": {
             "quantity": 1,
-            "size": "Free"
+            "size": "Hobby"
         }
     },
     "env": {

@@ -18,9 +18,13 @@ This project contains an example SMSbot using [RingCentral](https://ringcentral.
 
 If you already have your RingCentral API Keys and SMS number created and available, you can use [Heroku One-Button Deployment](https://devcenter.heroku.com/articles/heroku-button).
 
-**REMEMBER, you must have all the prerequisites to configure the app properly**
 
-**NOTE:** Zendesk is optional and you can leave the default values in place if you do not have a Zendesk account
+
+Notes:
+
+1. **REMEMBER, you must have all the prerequisites to configure the app properly**
+2. The demo defaults to paid Heroku `Hobby` and `redistogo:micro` tiers. This can be changed to free tiers by forking the repo and updating [`app.json`](app.json) to set the tiers to `Free` and `redistogo.nano`.
+3. Zendesk usage is optional and you can leave the default values in place if you do not have a Zendesk account
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 

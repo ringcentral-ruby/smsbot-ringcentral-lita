@@ -23,7 +23,7 @@
         },
         "LITA_ROBOT_NAME": {
             "description": "Your RingCentral SMSbot name",
-            "value": "RCbot",
+            "value": "rcbot",
             "required": true
         },
         "LITA_ROBOT_LOCALE__TYPESYM": {
@@ -78,17 +78,17 @@
         },
         "LITA_HANDLERS_ZENDESK_SUBDOMAIN": {
             "description": "Set this to your Zendesk subdomain",
-            "value": "",
+            "value": "my_zendesk_subdomain",
             "required": false
         },
         "LITA_HANDLERS_ZENDESK_authType": {
-            "description": "Set this to your auth type, password or token",
+            "description": "Set this to your auth type, `password` or `token`",
             "value": "password",
             "required": false
         },
         "LITA_HANDLERS_ZENDESK_USER": {
             "description": "Set this to your Zendesk user email",
-            "value": "",
+            "value": "my_zendesk_user",
             "required": false
         },
         "LITA_HANDLERS_ZENDESK_TOKEN": {
@@ -98,7 +98,7 @@
         },
         "LITA_HANDLERS_ZENDESK_PASSWORD": {
             "description": "Set this to your Zendesk password if using password auth",
-            "value": "",
+            "value": "my_zendesk_password",
             "required": false
         }
     }

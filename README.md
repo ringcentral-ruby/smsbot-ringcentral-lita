@@ -59,7 +59,7 @@ Lita configuration is loaded in [lita_config.rb](lita_config.rb) and [lita_doten
 By default, this example includes the following handlers:
 
 | Handler | Sample command | Notes |
-|---------|-------|
+|---------|----------------|-------|
 | [`lita-inspirebot`][repo-lita-inspirebot-link] | `quote jobs` | supports RingCentral sandbox accounts |
 | [`lita-eightball`](https://github.com/webdestroya/lita-eightball) | `@rcbot 8ball` | requires Ringcentral production account |
 | [`lita-zendesk`](https://github.com/grokify/lita-zendesk) | `@rcbot zd tickets` | requires RingCentral production account |

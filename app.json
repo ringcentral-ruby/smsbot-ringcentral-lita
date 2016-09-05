@@ -43,7 +43,7 @@
         },
         "LITA_ADAPTERS_RINGCENTRAL_SERVER": {
             "description": "Your RingCentral API host",
-            "value": "https://platform.ringcentral.com",
+            "value": "https://platform.devtest.ringcentral.com",
             "required": true
         },
         "LITA_ADAPTERS_RINGCENTRAL_appKey": {

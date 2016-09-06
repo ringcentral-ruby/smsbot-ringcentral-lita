@@ -67,6 +67,10 @@ By default, this example includes the following handlers:
 | [`lita-eightball`](https://github.com/webdestroya/lita-eightball) | `@lita 8ball` | requires Ringcentral production account |
 | [`lita-zendesk`](https://github.com/grokify/lita-zendesk) | `@lita zd tickets` | requires RingCentral production account |
 
+**Note:**
+
+1. Zendesk support is a demo. Currently, there is no authorization required which may be fine for open source projects but enterprise projects with private systems will want to add authz which could be hard coded or based on a directory service like ActiveDirectory, Okta, LDAP, etc.
+
 #### Changing Handlers
 
 To change the handlers that are loaded, edit the `Gemfile` as normal per [Lita](https://lita.io).

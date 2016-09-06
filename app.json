@@ -23,7 +23,7 @@
         },
         "LITA_ROBOT_NAME": {
             "description": "Your RingCentral SMSbot name",
-            "value": "rcbot",
+            "value": "lita",
             "required": true
         },
         "LITA_ROBOT_LOCALE__TYPESYM": {

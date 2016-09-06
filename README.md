@@ -18,8 +18,6 @@ This project contains an example SMSbot using [RingCentral](https://ringcentral.
 
 If you already have your RingCentral API Keys and SMS number created and available, you can use [Heroku One-Button Deployment](https://devcenter.heroku.com/articles/heroku-button).
 
-
-
 Notes:
 
 1. **REMEMBER, you must have all the prerequisites to configure the app properly**
@@ -53,6 +51,7 @@ After starting the service, text the following [`lita-inspirebot`][repo-lita-ins
 
 1. `quote authors`
 2. `quote jobs`
+3. `@lita 8ball`
 
 ### Handlers Information
 
@@ -65,8 +64,8 @@ By default, this example includes the following handlers:
 | Handler | Sample command | Notes |
 |---------|----------------|-------|
 | [`lita-inspirebot`][repo-lita-inspirebot-link] | `quote jobs` | supports RingCentral sandbox accounts |
-| [`lita-eightball`](https://github.com/webdestroya/lita-eightball) | `@rcbot 8ball` | requires Ringcentral production account |
-| [`lita-zendesk`](https://github.com/grokify/lita-zendesk) | `@rcbot zd tickets` | requires RingCentral production account |
+| [`lita-eightball`](https://github.com/webdestroya/lita-eightball) | `@lita 8ball` | requires Ringcentral production account |
+| [`lita-zendesk`](https://github.com/grokify/lita-zendesk) | `@lita zd tickets` | requires RingCentral production account |
 
 #### Changing Handlers
 

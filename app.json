@@ -81,14 +81,9 @@
             "value": "my_zendesk_subdomain",
             "required": false
         },
-        "LITA_HANDLERS_ZENDESK_authType": {
-            "description": "Set this to your auth type, `password` or `token`",
-            "value": "password",
-            "required": false
-        },
-        "LITA_HANDLERS_ZENDESK_USER": {
+        "LITA_HANDLERS_ZENDESK_USERNAME": {
             "description": "Set this to your Zendesk user email",
-            "value": "my_zendesk_user",
+            "value": "my_zendesk_username",
             "required": false
         },
         "LITA_HANDLERS_ZENDESK_TOKEN": {

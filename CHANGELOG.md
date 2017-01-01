@@ -1,0 +1,4 @@
+- **2016-12-31**: 0.1.0
+  - Update to `lita-ringcentral` `v0.1.0` using `RingCentralSdk` `v2.0.0`
+- **2016-09-02**: 0.0.1
+  - Initial commit
